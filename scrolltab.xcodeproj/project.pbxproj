@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -42,8 +42,8 @@
 		0D88C9101AF9986B3ABF3AC4 /* Pods-scrolltab.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-scrolltab.release.xcconfig"; path = "Target Support Files/Pods-scrolltab/Pods-scrolltab.release.xcconfig"; sourceTree = "<group>"; };
 		5F48DAEF265DCFA7FF53BF14 /* Pods_scrolltab.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_scrolltab.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		70BFC1C4C3B4C39435CE3CC5 /* Target_scrolltab.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Target_scrolltab.swift; path = Source/Target/Target_scrolltab.swift; sourceTree = "<group>"; };
-		8A9C108D00A24B482CD9C387 /* scrolltab.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text.script.ruby; name = scrolltab.podspec; path = ../scrolltab.podspec; sourceTree = "<group>"; };
-		8C3858E571F2DBCB1279A12E /* scrolltab_Extension.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text.script.ruby; name = scrolltab_Extension.podspec; path = ../scrolltab_Extension.podspec; sourceTree = "<group>"; };
+		8A9C108D00A24B482CD9C387 /* scrolltab.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = scrolltab.podspec; path = ../scrolltab.podspec; sourceTree = "<group>"; };
+		8C3858E571F2DBCB1279A12E /* scrolltab_Extension.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = scrolltab_Extension.podspec; path = ../scrolltab_Extension.podspec; sourceTree = "<group>"; };
 		AFBFF711A7DF60C574ACC4BE /* Pods-scrolltab.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-scrolltab.debug.xcconfig"; path = "Target Support Files/Pods-scrolltab/Pods-scrolltab.debug.xcconfig"; sourceTree = "<group>"; };
 		E720BCDC2D812E8A7599164B /* DemoViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DemoViewController.swift; path = Source/DemoViewController.swift; sourceTree = "<group>"; };
 		E9D76E9F27849FD7009907A9 /* scrolltab.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = scrolltab.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -128,7 +128,6 @@
 				AFBFF711A7DF60C574ACC4BE /* Pods-scrolltab.debug.xcconfig */,
 				0D88C9101AF9986B3ABF3AC4 /* Pods-scrolltab.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -157,6 +156,7 @@
 		E9D76EA127849FD7009907A9 /* scrolltab */ = {
 			isa = PBXGroup;
 			children = (
+				E9D76EDA2789FB38009907A9 /* scrolltab */,
 				E9D76EA227849FD7009907A9 /* AppDelegate.swift */,
 				E9D76EA427849FD7009907A9 /* SceneDelegate.swift */,
 				E9D76EA627849FD7009907A9 /* ViewController.swift */,
@@ -188,6 +188,13 @@
 				E9D76EC627849FDA009907A9 /* Info.plist */,
 			);
 			path = scrolltabUITests;
+			sourceTree = "<group>";
+		};
+		E9D76EDA2789FB38009907A9 /* scrolltab */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = scrolltab;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
